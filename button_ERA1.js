@@ -22,10 +22,10 @@ wt('init', {
 var linkedFields = {
 	"Items": {
 		"Item1": {
-			"image": arguments[0]
-			"description" : arguments[1]
-			"customA": arguments[2]
-			"tag":arguments[3]
+			"image": arguments[0],
+			"description" : arguments[1],
+			"customA": arguments[2],
+			"tag":arguments[3],
 		}
 	}
 }
