@@ -1,4 +1,4 @@
-function ALL() {
+function ALL(Items.Item1.image,Items.Item1.description, Items.Item1.custom,Items.Item1.tag) {
 (function (window, document, tag, url, name, a, m) {
     window[name] = window[name] || function () {
      (window[name].q = window[name].q || []).push(arguments)
