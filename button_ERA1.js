@@ -1,4 +1,4 @@
-function ALL(AgentPicture, AgentName, AgentNumber, PersonalisedName) {
+function ALL() {
 (function (window, document, tag, url, name, a, m) {
     window[name] = window[name] || function () {
      (window[name].q = window[name].q || []).push(arguments)
@@ -22,10 +22,10 @@ wt('init', {
 var linkedFields = {
 	"Items": {
 		"Item1": {
-			"image": AgentPicture
-			"description" : AgentName
-			"custom": AgentNumber
-			"tag":PersonalisedName
+			"image": arguments[1]
+			"description" : arguments[2]
+			"custom": arguments[3]
+			"tag":arguments[4]
 		}
 	}
 }
