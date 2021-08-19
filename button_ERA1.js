@@ -1,4 +1,4 @@
-
+function ALL() {
 (function (window, document, tag, url, name, a, m) {
     window[name] = window[name] || function () {
      (window[name].q = window[name].q || []).push(arguments)
@@ -167,4 +167,4 @@ wt('initShortcut', {
       });
     }
  });
-      
+}
