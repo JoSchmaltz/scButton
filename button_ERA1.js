@@ -24,7 +24,7 @@ var linkedFields = {
 		"Item1": {
 			"image": arguments[1]
 			"description" : arguments[2]
-			"custom": arguments[3]
+			"customA": arguments[3]
 			"tag":arguments[4]
 		}
 	}
